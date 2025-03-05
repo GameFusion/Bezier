@@ -55,6 +55,7 @@ let point = curve.evaluate(0.5);  // Evaluate point at t=0.5
 ## Documentation
 
 - [JavaScript Bezier Library](docs/javascript.md)
+- [TypeScript Bezier Library](docs/typescript.md)
 
 ## License
 
