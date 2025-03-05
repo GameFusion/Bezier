@@ -52,6 +52,10 @@ const curve = new Bezier([new Point(0, 0), new Point(1, 2), new Point(3, 5)]);
 let point = curve.evaluate(0.5);  // Evaluate point at t=0.5
 ```
 
+## Documentation
+
+- [JavaScript Bezier Library](docs/javascript.md)
+
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
@@ -63,12 +67,34 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ```
 /bezier-library
 │
-├── /src                          # Core library source code
-│   ├── bezier_curve.cpp          # C++ implementation for Bezier curve calculations
-│   ├── bezier_curve.h            # Header file for C++ implementation
-│   ├── bezier_curve.cs           # C# implementation for Bezier curve calculations
-│   ├── bezier_curve.js           # JavaScript implementation for Bezier curve calculations
-│   └── bezier_curve.ts           # TypeScript implementation for Bezier curve calculations
+├── /cpp                          # C++ implementation
+│   ├── BezierPath.cpp            # BezierPath implementation in C++
+│   ├── BezierPath.h              # Header for BezierPath in C++
+│   ├── BezierHandle.cpp          # BezierHandle implementation in C++
+│   ├── BezierHandle.h            # Header for BezierHandle in C++
+│   ├── Math3D.cpp                # Math3D related functions for C++
+│   ├── Math3D.h                  # Header for Math3D
+│   ├── Vector3D.cpp              # Vector3D implementation in C++
+│   ├── Vector3D.h                # Header for Vector3D
+│   ├── List.cpp                  # List container implementation in C++
+│   ├── List.h                    # Header for List container
+│   ├── Array.cpp                 # Array container implementation in C++
+│   └── Array.h                   # Header for Array container
+│
+├── /csharp                       # C# implementation
+│   ├── Bezier.cs                 # BezierCurve class in C#
+│   ├── BezierPath.cs             # BezierPath in C#
+│   ├── BezierHandle.cs           # BezierHandle in C#
+│   ├── Math3D.cs                 # Math3D related functions in C#
+│   ├── Vector3D.cs               # Vector3D class in C#
+│   ├── List.cs                   # List container in C#
+│   └── Array.cs                  # Array container in C#
+│
+├── /typescript                   # TypeScript implementation
+│   └── Bezier.ts                 # Bezier curve class in TypeScript
+│
+├── /javascript                   # JavaScript implementation
+│   └── Bezier.js                 # Bezier curve class in JavaScript
 │
 ├── /tests                        # Unit tests for the library
 │   ├── test_bezier_curve.cpp     # C++ test cases
@@ -77,9 +103,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 │   └── test_bezier_curve.ts      # TypeScript test cases
 │
 ├── /docs                         # Documentation
-│   ├── installation.md           # Installation guide
 │   ├── usage.md                  # Usage examples for different languages
-│   └── contributing.md           # Contribution guidelines
+│   └── javascript.md             # Javascript documentation details
 │
 ├── /examples                     # Example usage code
 │   ├── example_cpp.cpp           # Example usage in C++
@@ -91,7 +116,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ├── README.md                     # Project README file
 └── /build                        # Build and configuration files
 ```
-
-This structure separates the code for each language and includes tests, documentation, and examples, making it easy to navigate and contribute to the project.
-
-Let me know if you'd like further adjustments or additions!
