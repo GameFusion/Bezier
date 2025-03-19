@@ -1,8 +1,11 @@
 {
-  "name": "@your-github-username/gamefusion-bezier",
+  "name": "@gamefusion/gamefusion-bezier",
   "version": "1.0.0",
   "description": "Bezier curve library from GameFusion",
-  "repository": "https://github.com/GameFusion/Bezier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameFusion/Bezier.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
