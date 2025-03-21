@@ -1,5 +1,20 @@
 # Bezier Curve Library
 
+## Quick Install **For JavaScript / TypeScript:**
+To use the `@gamefusion/gamefusion-bezier` library in your project, install it using **npm** or **yarn**:
+
+### **Using npm:**
+```sh
+npm install @gamefusion/gamefusion-bezier
+```
+
+### **Using yarn:**
+```sh
+yarn add @gamefusion/gamefusion-bezier
+```
+
+---
+
 An ultra-lightweight Bezier curve library for multiple programming languages, enabling precise curve evaluations and manipulations.
 
 Welcome to the **Bezier Curve Library**, an efficient ultra-lightweight library designed to provide accurate Bezier curve evaluations and manipulations for various programming languages, including **C++**, **C#**, **JavaScript**, and **TypeScript**. 
@@ -60,6 +75,10 @@ let point = curve.evaluate(0.5);  // Evaluate point at t=0.5
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Repository
+
+[GitHub Repository](https://github.com/GameFusion/Bezier)
 
 ---
 

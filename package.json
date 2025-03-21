@@ -1,13 +1,13 @@
 {
   "name": "@gamefusion/gamefusion-bezier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bezier curve library from GameFusion",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GameFusion/Bezier.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "main": "dist/Bezier.js",
   "types": "dist/Bezier.d.ts",
@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
-  }
+  },
+  "license": "MIT"
 }
 
